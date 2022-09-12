@@ -1009,6 +1009,10 @@ textarea:focus, input:focus, select:focus {
     
 }
 @media(min-width:450px) and (max-width:850px) {
+    body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; /*todo conteúdo que ultrapassar os limitesna horiontal será ignorado*/
+    }
     .logo {
         margin-left: 30px;
     }
@@ -1128,6 +1132,10 @@ textarea:focus, input:focus, select:focus {
 
 
 @media(max-width:600px){
+    body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; /*todo conteúdo que ultrapassar os limitesna horiontal será ignorado*/
+    }
     .logo {
         margin-left: 30px;
     }
